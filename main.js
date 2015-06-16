@@ -265,7 +265,7 @@ function init() {
     document.onkeyup = function(e) {
       var key = e.keyCode;
     
-      if (key == 65) {
+      if (key == 37) {
         dir = "left";
         player.isMovingLeft = false;
       } else if (key == 39) {
@@ -485,7 +485,7 @@ function init() {
 function reset() {
   hideGoMenu();
   showScore();
-  player.isDead = false;
+  player.isDead = flase;
   
   flag = 0;
   position = 0;
