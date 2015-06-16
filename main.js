@@ -246,7 +246,7 @@ function init() {
     document.onkeydown = function(e) {
       var key = e.keyCode;
       
-      if (key == 65) {
+      if (key == 37) {
         dir = "left";
         player.isMovingLeft = true;
       } else if (key == 39) {
